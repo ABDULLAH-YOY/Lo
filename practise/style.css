@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
+.navbar-brand , .nav-link{
+    font-family: 'Poppins', sans-serif;
+}
+#main:hover{
+    box-shadow: 2px 2px 10px gray;
+}
+
+#main{
+    cursor: pointer;
+    width: 15%;
+    background-color: transparent;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid rgb(124, 124, 124);
+    margin: 50px;
+    display:inline-block;
+
+}
+
+ul li {
+    list-style: none;
+}
+.cards img{
+    width: 100%;
+}
+
+.cards h1{
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: .2s;
+}
+
+.cards h1:hover{
+ color: rgb(147, 147, 147);
+    
+}
+@media screen and (max-width:1075px) {
+    .cards h1{
+        font-size: 20px;
+        margin: 5px;
+
+    }
+}
+
+@media screen and (max-width:550px) {
+    #main{
+        width: 35%;
+   box-shadow: none;    
+
+    }
+    .cards h1{
+        font-size: 10px;
+        margin: 5px;
+
+    }
+}
+@media screen and (max-width:550px) {
+    #main{
+        width: 35%;
+   box-shadow: none; 
+   margin: 15px;   
+
+    }
+}
+@media screen and (max-width:290px) {
+    #main{
+        width: 35%;
+   box-shadow: none;  
+   display: inline-block;  
+   margin: 17px;
+    }
+}
+@media screen and (max-width:231px) {
+    #main{
+        width: 35%;
+   box-shadow: none;  
+   display: inline-block;  
+   margin: 15px;
+    }
+}
+@media screen and (max-width:193px) {
+    #main{
+        width: 35%;
+   box-shadow: none;  
+   display: inline-block;  
+   margin: 10px;
+    }
+}
